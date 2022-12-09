@@ -1,0 +1,23 @@
+#attach<jayendra_compiler.h>
+int main() {
+    int x=1;
+    int a=3;
+    int b;
+    int c;
+    c = x * a + 5;
+    if(x>a) {
+        display("Hi!");
+        b = x * 3 + c;
+        if(x>a) {
+            display("Hi!");
+            a = x * 3 + 100;
+        }
+        else {
+            x = a * 3 + 100;
+        }
+    }
+    else {
+        x = a * 3 + 100;
+    }
+    return_sys 0;
+}
